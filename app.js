@@ -17,6 +17,6 @@ app.get('/api/courses/:id',(req,res)=>{
     if(!course) res.status(404).send("the course with the given id was not found")
     res.send(course);
 })
-app.listen(3000,()=>{
+app.listen(3001,()=>{
     console.log("started on 3000 port")
 })
